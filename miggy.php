@@ -63,7 +63,7 @@ class Miggy {
      * Get the Mysql details
      */
     public function connect() {
-        $link = mysql_pconnect("123host.com.au","mysites_govhack","govhack") or die(mysql_error());
+        $link = mysql_pconnect("123host.com.au","###","###") or die(mysql_error());
         mysql_select_db("mysites_govhack", $link) or die(mysql_error());
     }
 
